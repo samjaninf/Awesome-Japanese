@@ -245,6 +245,7 @@ Similarly to Tobira, Minna no Nihongo is intended for intermediate-level student
   - [JapanesePod101](https://www.youtube.com/channel/UC0ox9NuTHYeRys63yZpBFuA) - Popular Japanese podcast's YouTube channel.
   - [Japanese Ammo with Misa](https://www.youtube.com/c/JapaneseAmmowithMisa) - Grammar & vocabulary lessons YouTube channel.
   - [Japanese from scratch](https://www.youtube.com/playlist?list=PLg9uYxuZf8x_A-vcqqyOFZu06WlhnypWj) - Different "organic" approach to learning Japanese.
+  - [Comprehensible Japanese](https://www.youtube.com/@cijapanese) - YouTube channel with great playlists for complete beginner.
 - News
   - [BBC News in Japanese](https://www.youtube.com/channel/UCCcey5CP5GDZeom987gqTdg) BBC News in Japanese language YouTube channel.
   - [Asahi News](https://www.youtube.com/user/ANNnewsCH) - Asahi News YouTube channel.
