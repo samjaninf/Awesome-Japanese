@@ -187,22 +187,25 @@ Similarly to Tobira, Minna no Nihongo is intended for intermediate-level student
 - [Sakubi](https://sakubi.neocities.org/) - Basic grammar primer that doesn't try to drill you :baby:
 
 ## Reading
+- Web
+  - [NHK Easy News](http://www3.nhk.or.jp/news/easy/) - News for elementary, middle school, and foreigners with audio and video.:baby:
+  - [読み物いっぱい](http://www17408ui.sakura.ne.jp/tatsum/project/Yomimono/Yomimono-ippai/index.html) - Reading materials for elementary learners. :baby:
+  - [Tadoku](https://tadoku.org/japanese/en/free-books-en/) - Illustrated books for elementary learners. Some books require purchase. :baby: :moneybag:
+  - [青空文庫](https://www.aozora.gr.jp) - A Japanese digital library encompasses several thousands of works of Japanese-language fiction and non-fiction. :older_man:
+  - [Japanese Folktales](http://www.e-hon.jp/ehon_jp/index1.htm) - Japanese folktales with drawings and audio. :jp:
+  - [Hukumusume Fairy Tale Collection](http://hukumusume.com/douwa/) - A website where you can read and hear traditional folk tales, legends and fairy tales - from Japan and all around the world - read aloud for you in Japanese.:jp:
+  - [Kyoko Shinbun](http://kyoko-np.net/index.html) - Fake Japanese News(similar to The Onion), podcast available. :iphone: :jp: :older_man:
+  - [用例.jp](http://yourei.jp/) - Search engine for Japanese sample sentences. :jp:
+  - [Japanese in Anime & Manga](http://anime-manga.jp/) - Learn Japanese from anime and manga.
+  - [Satori Reader](https://www.satorireader.com/) - Japanese reading and listening practice, first two chapters of each article is free. :moneybag:
+  - [Keio University Reading Materials Bank](http://language.tiu.ac.jp/materials/jpn/index.html) - The site is mostly in Japanese, but follow the 1-stars for the easiest reading materials. It's great because there is an English glossary integrated into the articles.
+  - [Japanese IO](https://www.japanese.io) - Learn Japanese through fun and easy reading practice. :older_man:
+  - [PressReader](https://www.pressreader.com/) - This website/app offers [毎日新聞　 Mainichi Shinbun](https://mainichi.jp/) digital daily newspaper and other Japanese language publications for free with many American libraries, please check local library to see whether it is available. See [detail](https://care.pressreader.com/hc/en-us/articles/211272703-Library-Card-Sign-In). Otherwise paid plan available. :older_man: :moneybag:
+  - [ImaWakatta](https://imawakatta.com/) - You can start reading real Japanese today, regardless of your level. ImaWakatta has stories with audio that include native speakers and professional voice overs. Every story has dynamic highlighting so you can follow the audio line by line. Includes 4 free stories. :baby: :moneybag:
+  - [LearnNatively](https://learnnatively.com) - The Natively community grades each book, movie or TV show to an approximate language proficiency level. This helps you find content that's appropriate for you.
 
-- [NHK Easy News](http://www3.nhk.or.jp/news/easy/) - News for elementary, middle school, and foreigners with audio and video.:baby:
-- [読み物いっぱい](http://www17408ui.sakura.ne.jp/tatsum/project/Yomimono/Yomimono-ippai/index.html) - Reading materials for elementary learners. :baby:
-- [Tadoku](https://tadoku.org/japanese/en/free-books-en/) - Illustrated books for elementary learners. Some books require purchase. :baby: :moneybag:
-- [青空文庫](https://www.aozora.gr.jp) - A Japanese digital library encompasses several thousands of works of Japanese-language fiction and non-fiction. :older_man:
-- [Japanese Folktales](http://www.e-hon.jp/ehon_jp/index1.htm) - Japanese folktales with drawings and audio. :jp:
-- [Hukumusume Fairy Tale Collection](http://hukumusume.com/douwa/) - A website where you can read and hear traditional folk tales, legends and fairy tales - from Japan and all around the world - read aloud for you in Japanese.:jp:
-- [Kyoko Shinbun](http://kyoko-np.net/index.html) - Fake Japanese News(similar to The Onion), podcast available. :iphone: :jp: :older_man:
-- [用例.jp](http://yourei.jp/) - Search engine for Japanese sample sentences. :jp:
-- [Japanese in Anime & Manga](http://anime-manga.jp/) - Learn Japanese from anime and manga.
-- [Satori Reader](https://www.satorireader.com/) - Japanese reading and listening practice, first two chapters of each article is free. :moneybag:
-- [Keio University Reading Materials Bank](http://language.tiu.ac.jp/materials/jpn/index.html) - The site is mostly in Japanese, but follow the 1-stars for the easiest reading materials. It's great because there is an English glossary integrated into the articles.
-- [Japanese IO](https://www.japanese.io) - Learn Japanese through fun and easy reading practice. :older_man:
-- [PressReader](https://www.pressreader.com/) - This website/app offers [毎日新聞　 Mainichi Shinbun](https://mainichi.jp/) digital daily newspaper and other Japanese language publications for free with many American libraries, please check local library to see whether it is available. See [detail](https://care.pressreader.com/hc/en-us/articles/211272703-Library-Card-Sign-In). Otherwise paid plan available. :older_man: :moneybag:
-- [ImaWakatta](https://imawakatta.com/) - You can start reading real Japanese today, regardless of your level. ImaWakatta has stories with audio that include native speakers and professional voice overs. Every story has dynamic highlighting so you can follow the audio line by line. Includes 4 free stories. :baby: :moneybag:
-- [LearnNatively](https://learnnatively.com) - The Natively community grades each book, movie or TV show to an approximate language proficiency level. This helps you find content that's appropriate for you.
+- App
+  - [Manabi Reader](https://reader.manabi.io) - Web, RSS, and EPUB ebook reader for looking up words, tracking vocabulary and kanji learning progress, and adding flashcards into Anki or Manabi Flashcards. Includes free library of curated native reading material. :iphone: :computer:
 
 ## Listening
 
