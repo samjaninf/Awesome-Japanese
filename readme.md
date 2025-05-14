@@ -188,7 +188,6 @@ Similarly to Tobira, Minna no Nihongo is intended for intermediate-level student
 - [Sakubi](https://sakubi.neocities.org/) - Basic grammar primer that doesn't try to drill you :baby:
 
 ## Reading
-
 - [NHK Easy News](http://www3.nhk.or.jp/news/easy/) - News for elementary, middle school, and foreigners with audio and video.:baby:
 - [読み物いっぱい](http://www17408ui.sakura.ne.jp/tatsum/project/Yomimono/Yomimono-ippai/index.html) - Reading materials for elementary learners. :baby:
 - [Tadoku](https://tadoku.org/japanese/en/free-books-en/) - Illustrated books for elementary learners. Some books require purchase. :baby: :moneybag:
@@ -204,6 +203,7 @@ Similarly to Tobira, Minna no Nihongo is intended for intermediate-level student
 - [PressReader](https://www.pressreader.com/) - This website/app offers [毎日新聞　 Mainichi Shinbun](https://mainichi.jp/) digital daily newspaper and other Japanese language publications for free with many American libraries, please check local library to see whether it is available. See [detail](https://care.pressreader.com/hc/en-us/articles/211272703-Library-Card-Sign-In). Otherwise paid plan available. :older_man: :moneybag:
 - [ImaWakatta](https://imawakatta.com/) - You can start reading real Japanese today, regardless of your level. ImaWakatta has stories with audio that include native speakers and professional voice overs. Every story has dynamic highlighting so you can follow the audio line by line. Includes 4 free stories. :baby: :moneybag:
 - [LearnNatively](https://learnnatively.com) - The Natively community grades each book, movie or TV show to an approximate language proficiency level. This helps you find content that's appropriate for you.
+- [Manabi Reader](https://reader.manabi.io) - Web, RSS, and EPUB ebook reader for looking up words, tracking vocabulary and kanji learning progress, and adding flashcards into Anki or Manabi Flashcards. Includes free library of curated native reading material. :iphone: :computer:
 
 ## Listening
 
