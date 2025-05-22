@@ -258,7 +258,6 @@ Similarly to Tobira, Minna no Nihongo is intended for intermediate-level student
   - [Yomiuri News](https://www.youtube.com/user/YomiuriShimbun) - Yomiuri News YouTube channel.
 - Stream
   - [QVC Japan](https://qvc.jp/cont/live/Main?sc_initcmp=icpc_TOP_Left-Menu_005) - QVC Japan Shopping Channel Live stream.
-  - [Keylabo](https://www.keylabo.com/watch-tv-online-for-free/) - Free Japanese TV Live stream listing. :warning: Some channels may not work, and 3rd party streaming service.
   - [Abema TV](https://abema.tv/) - Live Japanese TV stream. :iphone: :japan:
   - [GYAO!](https://gyao.yahoo.co.jp/) - Japanese TV programs on demand. :iphone: :japan:
   - [FRESH!](https://freshlive.tv/) - Japanese streamer platform. :iphone:
@@ -285,7 +284,7 @@ Similarly to Tobira, Minna no Nihongo is intended for intermediate-level student
   - [Goo 辞書 / Goo Dictionary](https://dictionary.goo.ne.jp/) - Online Japanese dictionary. :jp:
 
 - Software
-  - [Houhou](https://houhou-srs.com/) - The dictionary doubles as a learning tool. :computer:
+  - [Houhou](http://houhou-srs.com/) - The dictionary doubles as a learning tool. :computer:
   - [Takoboto](https://play.google.com/store/apps/details?id=jp.takoboto) - Android Japanese dictionary app, also has web and computer based version. :robot: :computer:
   - [imiwa?](https://www.imiwaapp.com/) - iOS Japanese dictionary app. :iphone:
   - [Tagaini Jisho](https://www.tagaini.net/) - Open-source Japanese dictionary and kanji lookup tool for Windows, MacOS X and Linux.
