@@ -1,7 +1,7 @@
 # Awesome-Japanese Pull Request
 
 ## Description
-<!-- Briefly describe what you're adding or changing -->
+<!-- Briefly describe what you are adding or changing -->
 
 ## Type of change
 <!-- Put an `x` in all the boxes that apply -->
@@ -13,11 +13,11 @@
 ## Checklist
 <!-- Put an `x` in all the boxes that apply -->
 - [ ] I have read the [contribution guidelines](CONTRIBUTING.md)
-- [ ] The item I'm adding is awesome and fits the theme of this list
+- [ ] The item I am adding is awesome and fits the theme of this list
 - [ ] The link is working and points to the intended content
 - [ ] The description is concise and informative
-- [ ] I've added the item to the appropriate category
-- [ ] I'm the owner/creator of the item
+- [ ] I have added the item to the appropriate category
+- [ ] I am the owner/creator of the item
 
 ## Additional Notes
 <!-- Any additional information that might be helpful for reviewers -->

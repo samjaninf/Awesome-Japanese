@@ -2,13 +2,13 @@
 
 Please note that this project is released with a [Contributor Code of Conduct](code-of-conduct.md). By participating in this project you agree to abide by its terms.
 
-Thank you for your interest in contributing to the Awesome Japanese List! We're excited to collaborate with you. This list thrives on the valuable contributions from the community like yours. Here’s how you can help make the Awesome List even more awesome.
+Thank you for your interest in contributing to the Awesome Japanese List! We're excited to collaborate with you. This list thrives on the valuable contributions from contributors like you. Here’s how you can help make the Awesome List even more awesome.
 
 ## How to Contribute
 
 ### Suggesting New Resources
 
-1. **Check for duplicates**: Before adding a new resource, please ensure it hasn't already been suggested or added.
+1. **Check for duplicates**: Before adding a new resource, please ensure it is not already listed or suggested.
 2. **Create a new issue**: Use the issue template to suggest your resource. Please include the name, link, and a brief description of why it's a valuable addition.
 3. **Pull request**: Once your suggestion has been acknowledged, you can submit a pull request. Please see the section below on how to do this properly.
 
@@ -34,7 +34,7 @@ Thank you for your interest in contributing to the Awesome Japanese List! We're 
 - Ensure your contribution is in line with the project's theme and quality standards.
 - Provide a clear and concise description for each contribution.
 - Check your spelling and grammar.
-- Please add disclaimer if you are the resource owner for transparency.
+- Please add a disclaimer if you are the resource owner for transparency.
 
 ## Questions?
 
