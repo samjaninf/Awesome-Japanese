@@ -268,6 +268,7 @@ Similarly to Tobira, Minna no Nihongo is intended for intermediate-level student
   - [animebook](https://github.com/animebook/animebook.github.io) - In-browser video player for learning Japanese with subtitles
   - [asbplayer](https://killergerbah.github.io/asbplayer/) - Browser-based media player and Chrome extension for subtitle sentence mining
   - [miteiru](https://github.com/hockyy/miteiru) - Miteiru is an open source Electron video player to learn Japanese and other languages 👴
+  - [mirumoji](https://github.com/svdC1/mirumoji) - Open-source and self-hosted video player with Japanese subtitle tokenization and generation, built-in JMDict, Anki deck creation and other features. 👴
 - Subtitles
   - [kitsunekko](https://kitsunekko.net/dirlist.php?dir=subtitles%2Fjapanese%2F) - Repository of Japanese subtitles for many series
 
