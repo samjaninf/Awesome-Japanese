@@ -239,9 +239,10 @@ Similarly to Tobira, Minna no Nihongo is intended for intermediate-level student
 ## Video
 
 - YouTube
+  - [Organic Japanese with Cure Dolly](https://www.youtube.com/channel/UCkdmU8hGK4Fg3LghTVtKltQ) - Japanese learning courses channel.
+      - [Cure Dolly course script](https://kellenok.github.io/cure-script/) - Courses script website accompying the videos.
   - [Nihongo no Mori](https://www.youtube.com/channel/UCVx6RFaEAg46xfAsD2zz16w) - JLPT test-oriented YouTube channel.
   - [Dogen](https://www.youtube.com/channel/UCSX0NhNdBA-ZnEFkYFzdw4A) - Japanese phonetic lessons YouTube channel.
-    - [Dogen's Patreon Lessons](https://www.patreon.com/dogen/overview) - A course that covers many different aspects of Japanese phonetics, like pitch accent and vowel placement. :moneybag:
   - [Game Grammar](https://www.youtube.com/channel/UC8UqIZlupjIQ3vxcAOEoNug) - Teach you Japanese by playing video games YouTube channel.
   - [JapanesePod101](https://www.youtube.com/channel/UC0ox9NuTHYeRys63yZpBFuA) - Popular Japanese podcast's YouTube channel.
   - [Japanese Ammo with Misa](https://www.youtube.com/c/JapaneseAmmowithMisa) - Grammar & vocabulary lessons YouTube channel.
