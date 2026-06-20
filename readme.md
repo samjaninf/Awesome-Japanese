@@ -2,7 +2,7 @@
 
 > A curated list of Japanese language learning resources.
 
-Update: The mobile alpha version is now available ([mobile.md](./mobile.md)). Community input is welcome for selecting the best mobile resources for each category. Please see the GitHub Issues tab for more information.
+> 📺 **[Japanese TV Channel Guide](tv.md)** — watch Japanese TV networks live or their latest uploads for an authentic **immersion learning** experience. **[Watch online »](https://yudataguy.github.io/Awesome-Japanese/tv/)**
 
 ## Contents
 
