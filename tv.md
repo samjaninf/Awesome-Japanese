@@ -14,8 +14,11 @@
 - [TBS NEWS DIG (TBS)](https://www.youtube.com/channel/UC6AG81pAkf6Lbi_1VC5NmPA) ([homepage](https://newsdig.tbs.co.jp/)) - TBS NEWS DIG Powered by JNN; runs 24/7 live news. (live & latest) :jp:
 - [日テレNEWS (Nippon TV)](https://www.youtube.com/channel/UCuTAXTexrhetbOe3zgskJBQ) ([homepage](https://news.ntv.co.jp/)) - Nippon News Network; runs 24/7 live news. (live & latest) :jp:
 - [FNNプライムオンライン (Fuji TV)](https://www.youtube.com/channel/UCoQBJMzcwmXrRSHBFAlTsIw) ([homepage](https://www.fnn.jp/)) - FNN Prime Online; runs 24/7 live news. (live & latest) :jp:
-- [テレ東BIZ ダイジェスト (TV Tokyo)](https://www.youtube.com/channel/UCkKVQ_GNjd8FbAuT6xDcWgg) ([homepage](https://txbiz.tv-tokyo.co.jp/)) - TV Tokyo business/economic news digest; upload-focused. (latest uploads) :jp:
 - [ウェザーニュース / Weathernews](https://www.youtube.com/channel/UCNsidkYpIAQ4QaufptQBPHQ) ([homepage](https://weathernews.jp/)) - Weathernews LiVE; 24/7 live weather and news. (live & latest) :jp:
+
+## Networks
+
+- [テレ東公式 TV TOKYO](https://www.youtube.com/channel/UCrDj5t8Q9ZFSGft7a3PWl9g) ([homepage](https://www.tv-tokyo.co.jp/)) - Main official TV TOKYO channel (variety, anime, news); latest uploads. (latest uploads) :jp:
 
 ## Contributing
 
