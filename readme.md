@@ -25,6 +25,7 @@ Update: The mobile alpha version is now available ([mobile.md](./mobile.md)). Co
   - [Speaking](#speaking)
   - [Community](#community)
   - [Video](#video)
+  - [Japanese TV](tv.md)
   - [Dictionary](#dictionary)
   - [Software](#software)
   - [Contribute](#contribute)
@@ -278,6 +279,7 @@ Similarly to Tobira, Minna no Nihongo is intended for intermediate-level student
   - [mirumoji](https://github.com/svdC1/mirumoji) - Open-source and self-hosted video player with Japanese subtitle tokenization and generation, built-in JMDict, Anki deck creation and other features. 👴
 - Subtitles
   - [kitsunekko](https://kitsunekko.net/dirlist.php?dir=subtitles%2Fjapanese%2F) - Repository of Japanese subtitles for many series
+- See also: [**Japanese TV Channels**](tv.md) - browse Japanese TV networks on YouTube (live & latest) with an interactive player.
 
 ## Dictionary
 

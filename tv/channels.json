@@ -1,0 +1,67 @@
+{
+  "channels": [
+    {
+      "name": "NHK (Japanese)",
+      "network": "NHK",
+      "group": "Public",
+      "youtubeChannelId": "UCip8ve30-AoX2y2OtAAmqFA",
+      "hasLive": false,
+      "homepage": "https://www.nhk.or.jp/",
+      "note": "Official Japanese-language NHK channel; upload-only on YouTube (main broadcast not live due to rights)"
+    },
+    {
+      "name": "ANN News (TV Asahi)",
+      "network": "TV Asahi",
+      "group": "News",
+      "youtubeChannelId": "UCGCZAYq5Xxojl_tSXcVJhiQ",
+      "hasLive": true,
+      "homepage": "https://news.tv-asahi.co.jp/",
+      "note": "24/7 live news stream (ANNnewsCH)"
+    },
+    {
+      "name": "TBS NEWS DIG (TBS)",
+      "network": "TBS",
+      "group": "News",
+      "youtubeChannelId": "UC6AG81pAkf6Lbi_1VC5NmPA",
+      "hasLive": true,
+      "homepage": "https://newsdig.tbs.co.jp/",
+      "note": "TBS NEWS DIG Powered by JNN; runs 24/7 live news"
+    },
+    {
+      "name": "日テレNEWS (Nippon TV)",
+      "network": "Nippon TV",
+      "group": "News",
+      "youtubeChannelId": "UCuTAXTexrhetbOe3zgskJBQ",
+      "hasLive": true,
+      "homepage": "https://news.ntv.co.jp/",
+      "note": "Nippon News Network; runs 24/7 live news"
+    },
+    {
+      "name": "FNNプライムオンライン (Fuji TV)",
+      "network": "Fuji TV",
+      "group": "News",
+      "youtubeChannelId": "UCoQBJMzcwmXrRSHBFAlTsIw",
+      "hasLive": true,
+      "homepage": "https://www.fnn.jp/",
+      "note": "FNN Prime Online; runs 24/7 live news"
+    },
+    {
+      "name": "テレ東BIZ ダイジェスト (TV Tokyo)",
+      "network": "TV Tokyo",
+      "group": "News",
+      "youtubeChannelId": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+      "hasLive": false,
+      "homepage": "https://txbiz.tv-tokyo.co.jp/",
+      "note": "TV Tokyo business/economic news digest; upload-focused"
+    },
+    {
+      "name": "ウェザーニュース / Weathernews",
+      "network": "Weathernews",
+      "group": "News",
+      "youtubeChannelId": "UCNsidkYpIAQ4QaufptQBPHQ",
+      "hasLive": true,
+      "homepage": "https://weathernews.jp/",
+      "note": "Weathernews LiVE; 24/7 live weather and news"
+    }
+  ]
+}
