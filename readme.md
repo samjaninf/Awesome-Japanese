@@ -2,7 +2,7 @@
 
 > A curated list of Japanese language learning resources.
 
-> 📺 **[Japanese TV Channel Guide](tv.md)** — watch Japanese TV networks live or their latest uploads for an authentic **immersion learning** experience. **[Watch online »](https://yudataguy.github.io/Awesome-Japanese/tv/)**
+📺 **[Japanese TV Channel Guide](tv.md)** — watch Japanese TV networks live or their latest uploads for an authentic **immersion learning** experience. **[Watch online »](https://yudataguy.github.io/Awesome-Japanese/tv/)**
 
 ## Contents
 
@@ -173,7 +173,7 @@ Similarly to Tobira, Minna no Nihongo is intended for intermediate-level student
 - [jpdb](https://jpdb.io/) - jpdb is a powerful Japanese dictionary and all-in-one learning system for kanji and vocabulary.
 - [Japanese Number Converter](https://japanesenumberconverter.com) - Japanese number converter (Kanji - Hiragana - Romaji)
 - [SakeSaySo](https://sakesayso.com/) - A Japanese-English dictionary app featuring SRS flashcards, daily news translations for sentence-based learning, vocabulary inspection, and example sentences. Supports offline use. :iphone:
-- [Japanese Drop](https://japanesedrop.com/learn) - Free reference guides covering greetings, phrases, numbers, honorifics, particles, and more, with word breakdowns, cultural context, and audio. Also offers a free daily Japanese lesson newsletter. :baby: 
+- [Japanese Drop](https://japanesedrop.com/learn) - Free reference guides covering greetings, phrases, numbers, honorifics, particles, and more, with word breakdowns, cultural context, and audio. Also offers a free daily Japanese lesson newsletter. :baby:
 - [hifumi](https://vitto4.github.io/hifumi/) - A flashcards companion app tailored for Minna no Nihongo Shokyū I & II textbooks ([sources](https://github.com/vitto4/hifumi)). :iphone: :computer:
 - [Pokelingo](https://pokelingo.io/en/riddle/?lang=ja) - Daily reading puzzle: read a Pokédex entry in Japanese and guess the Pokémon in five tries. All 1,025 Pokémon names with katakana practice in context. :iphone: :baby:
 
@@ -194,6 +194,7 @@ Similarly to Tobira, Minna no Nihongo is intended for intermediate-level student
 - [Sakubi](https://sakubi.neocities.org/) - Basic grammar primer that doesn't try to drill you :baby:
 
 ## Reading
+
 - [NHK Easy News](https://www3.nhk.or.jp/news/easy/) - News for elementary, middle school, and foreigners with audio and video. :baby:
 - [読み物いっぱい](http://www17408ui.sakura.ne.jp/tatsum/project/Yomimono/Yomimono-ippai/index.html) - Reading materials for elementary learners. :baby:
 - [Tadoku](https://tadoku.org/japanese/en/free-books-en/) - Illustrated books for elementary learners. Some books require purchase. :baby: :moneybag:
@@ -246,7 +247,7 @@ Similarly to Tobira, Minna no Nihongo is intended for intermediate-level student
 
 - YouTube
   - [Organic Japanese with Cure Dolly](https://www.youtube.com/channel/UCkdmU8hGK4Fg3LghTVtKltQ) - Japanese learning courses channel.
-      - [Cure Dolly course script](https://kellenok.github.io/cure-script/) - Courses script website accompying the videos.
+    - [Cure Dolly course script](https://kellenok.github.io/cure-script/) - Courses script website accompying the videos.
   - [Nihongo no Mori](https://www.youtube.com/channel/UCVx6RFaEAg46xfAsD2zz16w) - JLPT test-oriented YouTube channel.
   - [Dogen](https://www.youtube.com/channel/UCSX0NhNdBA-ZnEFkYFzdw4A) - Japanese phonetic lessons YouTube channel.
   - [Game Grammar](https://www.youtube.com/channel/UC8UqIZlupjIQ3vxcAOEoNug) - Teach you Japanese by playing video games YouTube channel.
