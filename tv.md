@@ -2,9 +2,7 @@
 
 > A curated guide to Japanese TV channels streaming on YouTube, part of [Awesome Japanese](./readme.md). Each channel links to its YouTube channel and homepage, with live streams noted.
 
-**Want to watch?** Use the interactive player at [`tv/`](./tv/index.html) — pick a channel to play its latest uploads continuously in the page, or use the **▶ Live** link to open that channel's current live stream on YouTube. Once GitHub Pages is enabled it lives at a URL like `https://<owner>.github.io/Awesome-Japanese/tv/`.
-
-> Maintainers: enabling the interactive player is a one-time step. In the repo, go to **Settings → Pages → Source: Deploy from a branch → `master` / `/ (root)`**.
+**Want to watch?** [Open the interactive player](https://yudataguy.github.io/Awesome-Japanese/tv/) — pick a channel to play its latest uploads continuously in the page, or use the **▶ Live** link to open that channel's current live stream on YouTube.
 
 ## Public
 
@@ -21,4 +19,4 @@
 
 ## Contributing
 
-Channels live in [`tv/channels.json`](./tv/channels.json) — the interactive player reads that file directly. To add a channel, add a JSON entry there (with `name`, `group`, `youtubeChannelId`, `hasLive`, `homepage`, and `note`) plus a matching bullet in this file under the right heading. Recognized `group` values are `Public`, `News`, and `Networks` (any other value renders under its own heading after these).
+Channels live in [`tv/channels.json`](https://github.com/yudataguy/Awesome-Japanese/blob/homepage/tv/channels.json) on the `homepage` branch — the interactive player reads that file directly. To add a channel, add a JSON entry there (with `name`, `group`, `youtubeChannelId`, `hasLive`, `homepage`, and `note`) plus a matching bullet in this file under the right heading. Recognized `group` values are `Public`, `News`, and `Networks` (any other value renders under its own heading after these).
