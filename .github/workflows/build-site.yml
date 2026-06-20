@@ -1,25 +1,30 @@
-name: Build homepage
+name: Deploy site
+
+# Builds the themed homepage from readme.md and deploys the whole site
+# (homepage + /tv/) to GitHub Pages via the official artifact deployment —
+# no commit/push, so it is never blocked by branch protection.
+# Requires: repo Settings -> Pages -> Source = "GitHub Actions".
 
 on:
   push:
     branches: [master]
-    paths:
-      - "readme.md"
-      - "site/**"
-      - "package.json"
-      - ".github/workflows/build-site.yml"
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
 
 concurrency:
-  group: build-homepage
+  group: pages
   cancel-in-progress: true
 
 jobs:
-  build:
+  build-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -27,14 +32,14 @@ jobs:
           node-version: "20"
       - run: npm install --no-audit --no-fund
       - run: node site/build.mjs
-      - name: Commit generated homepage if changed
+      - name: Assemble site directory
         run: |
-          if [ -n "$(git status --porcelain index.html assets/home.css sitemap.xml)" ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add index.html assets/home.css sitemap.xml
-            git commit -m "chore: rebuild homepage from readme [skip ci]"
-            git push
-          else
-            echo "Homepage already up to date."
-          fi
+          mkdir -p _site
+          cp -r index.html assets tv sitemap.xml robots.txt .nojekyll _site/
+          for f in readme.md mobile.md tv.md; do [ -f "$f" ] && cp "$f" _site/; done
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deploy
+        uses: actions/deploy-pages@v4
