@@ -63,13 +63,14 @@ jobs:
                 per_page: 100,
               });
 
-              const latestChangeRequest = reviews
+              const changeRequests = reviews
                 .filter((review) => review.state === "CHANGES_REQUESTED" && review.submitted_at)
-                .sort((a, b) => new Date(b.submitted_at) - new Date(a.submitted_at))[0];
+                .sort((a, b) => new Date(b.submitted_at) - new Date(a.submitted_at));
 
-              if (!latestChangeRequest) {
+              if (!changeRequests.length) {
                 continue;
               }
+              const latestChangeRequest = changeRequests[0];
 
               const latestChangeRequestAt = new Date(latestChangeRequest.submitted_at).getTime();
               const ageMs = now - latestChangeRequestAt;
@@ -88,7 +89,7 @@ jobs:
                 continue;
               }
 
-              const latestCommitAt = commits
+              const commitTimestamps = commits
                 .map((commit) => {
                   const rawDate = commit.commit?.committer?.date ?? commit.commit?.author?.date ?? null;
                   if (!rawDate) {
@@ -98,7 +99,13 @@ jobs:
                   return Number.isFinite(timestamp) ? timestamp : null;
                 })
                 .filter((timestamp) => timestamp !== null)
-                .sort((a, b) => b - a)[0];
+                .sort((a, b) => b - a);
+
+              if (!commitTimestamps.length) {
+                core.warning(`Unable to determine latest commit date for PR #${pr.number}; skipping.`);
+                continue;
+              }
+              const latestCommitAt = commitTimestamps[0];
 
               if (!Number.isFinite(latestCommitAt)) {
                 core.warning(`Unable to determine latest commit date for PR #${pr.number}; skipping.`);
