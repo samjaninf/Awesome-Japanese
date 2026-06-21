@@ -101,13 +101,18 @@ jobs:
                 continue;
               }
 
+              const reviewerMention = latestChangeRequest.user?.login ? `@${latestChangeRequest.user.login}` : "a reviewer";
+              const requestedAt = latestChangeRequest.submitted_at
+                ? new Date(latestChangeRequest.submitted_at).toISOString().slice(0, 10)
+                : "an unknown date";
+
               core.info(`Closing PR #${pr.number} due to ${STALE_DAYS}+ days of inactivity after change request.`);
 
               await github.rest.issues.createComment({
                 owner,
                 repo,
                 issue_number: pr.number,
-                body: `Closing this pull request because requested changes have not been acted on for over ${STALE_DAYS} days. Please reopen or open a new PR when you're ready to continue.`,
+                body: `Closing this pull request.\n\nReason: an unresolved "changes requested" review from ${reviewerMention} on ${requestedAt} has not been acted on, and no commits were pushed afterward for over ${STALE_DAYS} days.\n\nPlease reopen or open a new PR when you're ready to continue.`,
               });
 
               await github.rest.pulls.update({
