@@ -19,14 +19,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Close stale PRs with unresolved change requests
-        uses: actions/github-script@v7
+        uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea # v7
         env:
           INPUT_STALE_DAYS: ${{ github.event.inputs.stale_days }}
         with:
           script: |
             const owner = context.repo.owner;
             const repo = context.repo.repo;
-            const configuredStaleDays = Number.parseInt(process.env.INPUT_STALE_DAYS ?? "", 10);
+            const rawStaleDays = process.env.INPUT_STALE_DAYS ?? null;
+            const configuredStaleDays = rawStaleDays ? Number.parseInt(rawStaleDays, 10) : Number.NaN;
             const STALE_DAYS = Number.isFinite(configuredStaleDays) && configuredStaleDays > 0 ? configuredStaleDays : 90;
             const cutoffMs = STALE_DAYS * 24 * 60 * 60 * 1000;
             const now = Date.now();
@@ -91,7 +92,8 @@ jobs:
 
               const commitTimestamps = commits
                 .map((commit) => {
-                  const rawDate = commit.commit?.committer?.date ?? commit.commit?.author?.date ?? null;
+                  const commitData = commit.commit;
+                  const rawDate = commitData?.committer?.date ?? commitData?.author?.date ?? null;
                   if (!rawDate) {
                     return null;
                   }
