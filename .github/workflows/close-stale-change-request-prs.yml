@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
+    inputs:
+      stale_days:
+        description: "Days since latest unresolved changes request before auto-close"
+        required: false
+        default: "90"
 
 permissions:
   contents: read
@@ -19,7 +24,8 @@ jobs:
           script: |
             const owner = context.repo.owner;
             const repo = context.repo.repo;
-            const STALE_DAYS = 90;
+            const configuredStaleDays = Number.parseInt(context.payload.inputs?.stale_days ?? "", 10);
+            const STALE_DAYS = Number.isFinite(configuredStaleDays) && configuredStaleDays > 0 ? configuredStaleDays : 90;
             const cutoffMs = STALE_DAYS * 24 * 60 * 60 * 1000;
             const now = Date.now();
 
@@ -33,6 +39,21 @@ jobs:
             core.info(`Found ${pullRequests.length} open pull request(s).`);
 
             for (const pr of pullRequests) {
+              const reviewDecisionResponse = await github.graphql(
+                `query($owner: String!, $repo: String!, $number: Int!) {
+                  repository(owner: $owner, name: $repo) {
+                    pullRequest(number: $number) {
+                      reviewDecision
+                    }
+                  }
+                }`,
+                { owner, repo, number: pr.number }
+              );
+              const reviewDecision = reviewDecisionResponse.repository.pullRequest.reviewDecision;
+              if (reviewDecision !== "CHANGES_REQUESTED") {
+                continue;
+              }
+
               const reviews = await github.paginate(github.rest.pulls.listReviews, {
                 owner,
                 repo,
@@ -65,16 +86,13 @@ jobs:
                 continue;
               }
 
-              const latestCommit = commits[commits.length - 1];
-              const latestCommitDate = latestCommit.commit?.committer?.date ?? latestCommit.commit?.author?.date ?? null;
-              if (!latestCommitDate) {
-                core.warning(`Unable to determine latest commit date for PR #${pr.number}; skipping.`);
-                continue;
-              }
-              const latestCommitAt = new Date(latestCommitDate).getTime();
+              const latestCommitAt = commits
+                .map((commit) => new Date(commit.commit?.committer?.date ?? commit.commit?.author?.date ?? "").getTime())
+                .filter((timestamp) => Number.isFinite(timestamp))
+                .sort((a, b) => b - a)[0];
 
               if (!Number.isFinite(latestCommitAt)) {
-                core.warning(`Unable to parse latest commit time for PR #${pr.number}; skipping.`);
+                core.warning(`Unable to determine latest commit date for PR #${pr.number}; skipping.`);
                 continue;
               }
 
