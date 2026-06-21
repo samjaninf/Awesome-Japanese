@@ -160,6 +160,7 @@ Similarly to Tobira, Minna no Nihongo is intended for intermediate-level student
 - [Kanji Explorer](https://kanjiexplorer.com) - Navigate kanji using radicals
 - [The Kanji Map](https://thekanjimap.com) - Explore kanji decomposition as an interactive graph
 - [KanjiDraw](https://kanjidraw.com) - Kanji drawing and learning practice app with stroke-order puzzles, gamified drawing phases, multilingual meanings, and a draw-to-search dictionary. :baby:
+- [WaniAnki](https://wanianki.com) - A WaniKani companion app for reviewing kanji, vocabulary, and radicals on your own terms — advanced filters, custom decks and study/quiz modes. :iphone: :computer:
 
 ## Vocabulary
 
