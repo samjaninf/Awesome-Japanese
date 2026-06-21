@@ -1,0 +1,97 @@
+name: Close stale change-request PRs
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  close-stale-prs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Close stale PRs with unresolved change requests
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const cutoffMs = 90 * 24 * 60 * 60 * 1000;
+            const now = Date.now();
+
+            const pullRequests = await github.paginate(github.rest.pulls.list, {
+              owner,
+              repo,
+              state: "open",
+              per_page: 100,
+            });
+
+            core.info(`Found ${pullRequests.length} open pull request(s).`);
+
+            for (const pr of pullRequests) {
+              const reviews = await github.paginate(github.rest.pulls.listReviews, {
+                owner,
+                repo,
+                pull_number: pr.number,
+                per_page: 100,
+              });
+
+              const latestChangeRequest = reviews
+                .filter((review) => review.state === "CHANGES_REQUESTED" && review.submitted_at)
+                .sort((a, b) => new Date(b.submitted_at) - new Date(a.submitted_at))[0];
+
+              if (!latestChangeRequest) {
+                continue;
+              }
+
+              const latestChangeRequestAt = new Date(latestChangeRequest.submitted_at).getTime();
+              const ageMs = now - latestChangeRequestAt;
+              if (ageMs < cutoffMs) {
+                continue;
+              }
+
+              const commits = await github.paginate(github.rest.pulls.listCommits, {
+                owner,
+                repo,
+                pull_number: pr.number,
+                per_page: 100,
+              });
+
+              if (!commits.length) {
+                continue;
+              }
+
+              const latestCommit = commits[commits.length - 1];
+              const latestCommitAt = new Date(
+                latestCommit.commit?.committer?.date ?? latestCommit.commit?.author?.date
+              ).getTime();
+
+              if (!Number.isFinite(latestCommitAt)) {
+                core.warning(`Unable to parse latest commit time for PR #${pr.number}; skipping.`);
+                continue;
+              }
+
+              if (latestCommitAt > latestChangeRequestAt) {
+                core.info(`PR #${pr.number} has commits after requested changes; skipping.`);
+                continue;
+              }
+
+              core.info(`Closing PR #${pr.number} due to 90+ days of inactivity after change request.`);
+
+              await github.rest.issues.createComment({
+                owner,
+                repo,
+                issue_number: pr.number,
+                body: "Closing this pull request because requested changes have not been acted on for over 90 days. Please reopen or open a new PR when you're ready to continue.",
+              });
+
+              await github.rest.pulls.update({
+                owner,
+                repo,
+                pull_number: pr.number,
+                state: "closed",
+              });
+            }
