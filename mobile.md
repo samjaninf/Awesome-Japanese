@@ -46,6 +46,7 @@
 
 - [Anki](https://apps.ankiweb.net/) - Japanese vocabulary learning app. :apple: :robot:
 - [Memrise](https://www.memrise.com/) - Community driven Japanese vocabulary learning app. :apple: :robot:
+- [KaChiKa JA](https://kachika.app/) - AI photo-to-vocabulary app: snap a photo to extract Japanese words with example sentences, FSRS-scheduled reviews. :apple: :robot: :moneybag:
 
 ## Grammar
 

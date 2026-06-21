@@ -176,6 +176,7 @@ Similarly to Tobira, Minna no Nihongo is intended for intermediate-level student
 - [Japanese Drop](https://japanesedrop.com/learn) - Free reference guides covering greetings, phrases, numbers, honorifics, particles, and more, with word breakdowns, cultural context, and audio. Also offers a free daily Japanese lesson newsletter. :baby:
 - [hifumi](https://vitto4.github.io/hifumi/) - A flashcards companion app tailored for Minna no Nihongo Shokyū I & II textbooks ([sources](https://github.com/vitto4/hifumi)). :iphone: :computer:
 - [Pokelingo](https://pokelingo.io/en/riddle/?lang=ja) - Daily reading puzzle: read a Pokédex entry in Japanese and guess the Pokémon in five tries. All 1,025 Pokémon names with katakana practice in context. :iphone: :baby:
+- [KaChiKa JA](https://kachika.app/) - AI photo-to-vocabulary app for Japanese learners. Snap a photo of anything around you to extract Japanese words with example sentences, scheduled for review with FSRS. All images stored locally. :iphone: :moneybag:
 
 ## Grammar
 
