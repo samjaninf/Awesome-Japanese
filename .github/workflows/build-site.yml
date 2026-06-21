@@ -41,7 +41,7 @@ jobs:
           cp -r .homepage/site .homepage/tv .homepage/package.json .homepage/package-lock.json .homepage/robots.txt .homepage/.nojekyll .
       - uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
       - run: npm ci
       - run: node site/build.mjs
       - name: Assemble site directory
