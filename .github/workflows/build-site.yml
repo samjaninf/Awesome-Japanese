@@ -10,6 +10,8 @@ on:
   push:
     branches: [master]
   workflow_dispatch:
+  schedule:
+    - cron: "7 * * * *"   # hourly, at :07 — regenerates the live TV schedule
 
 permissions:
   contents: read
@@ -47,6 +49,10 @@ jobs:
           mkdir -p _site
           cp -r index.html assets tv sitemap.xml robots.txt .nojekyll _site/
           for f in readme.md tv.md mobile.md; do [ -f "$f" ] && cp "$f" _site/; done
+      - name: Generate live TV schedule
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: node .homepage/scripts/build-schedule.mjs --out _site/tv/schedule.json
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
