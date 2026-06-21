@@ -20,11 +20,13 @@ jobs:
     steps:
       - name: Close stale PRs with unresolved change requests
         uses: actions/github-script@v7
+        env:
+          INPUT_STALE_DAYS: ${{ github.event.inputs.stale_days }}
         with:
           script: |
             const owner = context.repo.owner;
             const repo = context.repo.repo;
-            const configuredStaleDays = Number.parseInt(context.payload.inputs?.stale_days ?? "", 10);
+            const configuredStaleDays = Number.parseInt(process.env.INPUT_STALE_DAYS ?? "", 10);
             const STALE_DAYS = Number.isFinite(configuredStaleDays) && configuredStaleDays > 0 ? configuredStaleDays : 90;
             const cutoffMs = STALE_DAYS * 24 * 60 * 60 * 1000;
             const now = Date.now();
@@ -87,8 +89,15 @@ jobs:
               }
 
               const latestCommitAt = commits
-                .map((commit) => new Date(commit.commit?.committer?.date ?? commit.commit?.author?.date ?? "").getTime())
-                .filter((timestamp) => Number.isFinite(timestamp))
+                .map((commit) => {
+                  const rawDate = commit.commit?.committer?.date ?? commit.commit?.author?.date ?? null;
+                  if (!rawDate) {
+                    return null;
+                  }
+                  const timestamp = Date.parse(rawDate);
+                  return Number.isFinite(timestamp) ? timestamp : null;
+                })
+                .filter((timestamp) => timestamp !== null)
                 .sort((a, b) => b - a)[0];
 
               if (!Number.isFinite(latestCommitAt)) {
@@ -101,7 +110,10 @@ jobs:
                 continue;
               }
 
-              const reviewerMention = latestChangeRequest.user?.login ? `@${latestChangeRequest.user.login}` : "a reviewer";
+              const reviewerLogin = latestChangeRequest.user && typeof latestChangeRequest.user.login === "string"
+                ? latestChangeRequest.user.login
+                : null;
+              const reviewerMention = reviewerLogin ? `@${reviewerLogin}` : "a reviewer";
               const requestedAt = latestChangeRequest.submitted_at
                 ? new Date(latestChangeRequest.submitted_at).toISOString().slice(0, 10)
                 : "an unknown date";
