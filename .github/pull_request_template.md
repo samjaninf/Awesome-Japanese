@@ -17,8 +17,12 @@
 - [ ] The link is working and points to the intended content
 - [ ] The description is concise and informative
 - [ ] I have added the item to the appropriate category
-- [ ] I am the owner/creator of the item
 - [ ] I understand this PR may be automatically closed after 90 days if there is no follow-up after a requested change
+
+## Your Role
+<!-- Please choose one option that applies to you -->
+- [ ] I'm affiliated with this item
+- [ ] I'm nominating this item
 
 ## Additional Notes
 <!-- Any additional information that might be helpful for reviewers -->
