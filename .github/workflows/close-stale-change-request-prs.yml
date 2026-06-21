@@ -1,0 +1,139 @@
+name: Close stale change-request PRs
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+    inputs:
+      stale_days:
+        description: "Days since latest unresolved changes request before auto-close"
+        required: false
+        default: "90"
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+jobs:
+  close-stale-prs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Close stale PRs with unresolved change requests
+        uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea # v7
+        env:
+          INPUT_STALE_DAYS: ${{ github.event.inputs.stale_days }}
+        with:
+          script: |
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const configuredStaleDays = Number.parseInt(process.env.INPUT_STALE_DAYS, 10);
+            const STALE_DAYS = Number.isFinite(configuredStaleDays) && configuredStaleDays > 0 ? configuredStaleDays : 90;
+            const cutoffMs = STALE_DAYS * 24 * 60 * 60 * 1000;
+            const now = Date.now();
+
+            const pullRequests = await github.paginate(github.rest.pulls.list, {
+              owner,
+              repo,
+              state: "open",
+              per_page: 100,
+            });
+
+            core.info(`Found ${pullRequests.length} open pull request(s).`);
+
+            for (const pr of pullRequests) {
+              const reviewDecisionResponse = await github.graphql(
+                `query($owner: String!, $repo: String!, $number: Int!) {
+                  repository(owner: $owner, name: $repo) {
+                    pullRequest(number: $number) {
+                      reviewDecision
+                    }
+                  }
+                }`,
+                { owner, repo, number: pr.number }
+              );
+              const reviewDecision = reviewDecisionResponse.repository.pullRequest.reviewDecision;
+              if (reviewDecision !== "CHANGES_REQUESTED") {
+                continue;
+              }
+
+              const reviews = await github.paginate(github.rest.pulls.listReviews, {
+                owner,
+                repo,
+                pull_number: pr.number,
+                per_page: 100,
+              });
+
+              const changeRequests = reviews
+                .filter((review) => review.state === "CHANGES_REQUESTED" && review.submitted_at)
+                .sort((a, b) => new Date(b.submitted_at) - new Date(a.submitted_at));
+
+              if (!changeRequests.length) {
+                continue;
+              }
+              const latestChangeRequest = changeRequests[0];
+
+              const latestChangeRequestAt = new Date(latestChangeRequest.submitted_at).getTime();
+              const ageMs = now - latestChangeRequestAt;
+              if (ageMs < cutoffMs) {
+                continue;
+              }
+
+              const commits = await github.paginate(github.rest.pulls.listCommits, {
+                owner,
+                repo,
+                pull_number: pr.number,
+                per_page: 100,
+              });
+
+              if (!commits.length) {
+                continue;
+              }
+
+              const commitTimestamps = commits
+                .map((commit) => {
+                  const commitData = commit.commit;
+                  const rawDate = commitData?.committer?.date ?? commitData?.author?.date ?? null;
+                  if (!rawDate) {
+                    return null;
+                  }
+                  const timestamp = Date.parse(rawDate);
+                  return Number.isFinite(timestamp) ? timestamp : null;
+                })
+                .filter((timestamp) => timestamp !== null)
+                .sort((a, b) => b - a);
+
+              if (!commitTimestamps.length) {
+                core.warning(`Unable to determine latest commit date for PR #${pr.number}; skipping.`);
+                continue;
+              }
+              const latestCommitAt = commitTimestamps[0];
+
+              if (latestCommitAt > latestChangeRequestAt) {
+                core.info(`PR #${pr.number} has commits after requested changes; skipping.`);
+                continue;
+              }
+
+              const reviewerLogin = latestChangeRequest.user && typeof latestChangeRequest.user.login === "string"
+                ? latestChangeRequest.user.login
+                : null;
+              const reviewerMention = reviewerLogin ? `@${reviewerLogin}` : "a reviewer";
+              const requestedAt = latestChangeRequest.submitted_at
+                ? new Date(latestChangeRequest.submitted_at).toISOString().slice(0, 10)
+                : "an unknown date";
+
+              core.info(`Closing PR #${pr.number} due to ${STALE_DAYS}+ days of inactivity after change request.`);
+
+              await github.rest.issues.createComment({
+                owner,
+                repo,
+                issue_number: pr.number,
+                body: `Closing this pull request.\n\nReason: an unresolved "changes requested" review from ${reviewerMention} on ${requestedAt} has not been acted on, and no commits were pushed afterward for over ${STALE_DAYS} days.\n\nPlease reopen or open a new PR when you're ready to continue.`,
+              });
+
+              await github.rest.pulls.update({
+                owner,
+                repo,
+                pull_number: pr.number,
+                state: "closed",
+              });
+            }
