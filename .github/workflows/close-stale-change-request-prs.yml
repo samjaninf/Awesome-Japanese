@@ -19,7 +19,8 @@ jobs:
           script: |
             const owner = context.repo.owner;
             const repo = context.repo.repo;
-            const cutoffMs = 90 * 24 * 60 * 60 * 1000;
+            const STALE_DAYS = 90;
+            const cutoffMs = STALE_DAYS * 24 * 60 * 60 * 1000;
             const now = Date.now();
 
             const pullRequests = await github.paginate(github.rest.pulls.list, {
@@ -65,9 +66,8 @@ jobs:
               }
 
               const latestCommit = commits[commits.length - 1];
-              const latestCommitAt = new Date(
-                latestCommit.commit?.committer?.date ?? latestCommit.commit?.author?.date
-              ).getTime();
+              const latestCommitDate = latestCommit.commit?.committer?.date ?? latestCommit.commit?.author?.date ?? null;
+              const latestCommitAt = new Date(latestCommitDate).getTime();
 
               if (!Number.isFinite(latestCommitAt)) {
                 core.warning(`Unable to parse latest commit time for PR #${pr.number}; skipping.`);
@@ -79,7 +79,7 @@ jobs:
                 continue;
               }
 
-              core.info(`Closing PR #${pr.number} due to 90+ days of inactivity after change request.`);
+              core.info(`Closing PR #${pr.number} due to ${STALE_DAYS}+ days of inactivity after change request.`);
 
               await github.rest.issues.createComment({
                 owner,
