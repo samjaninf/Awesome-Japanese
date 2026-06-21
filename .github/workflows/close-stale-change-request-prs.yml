@@ -67,6 +67,10 @@ jobs:
 
               const latestCommit = commits[commits.length - 1];
               const latestCommitDate = latestCommit.commit?.committer?.date ?? latestCommit.commit?.author?.date ?? null;
+              if (!latestCommitDate) {
+                core.warning(`Unable to determine latest commit date for PR #${pr.number}; skipping.`);
+                continue;
+              }
               const latestCommitAt = new Date(latestCommitDate).getTime();
 
               if (!Number.isFinite(latestCommitAt)) {
@@ -85,7 +89,7 @@ jobs:
                 owner,
                 repo,
                 issue_number: pr.number,
-                body: "Closing this pull request because requested changes have not been acted on for over 90 days. Please reopen or open a new PR when you're ready to continue.",
+                body: `Closing this pull request because requested changes have not been acted on for over ${STALE_DAYS} days. Please reopen or open a new PR when you're ready to continue.`,
               });
 
               await github.rest.pulls.update({
