@@ -49,11 +49,6 @@ jobs:
           mkdir -p _site
           cp -r index.html assets tv sitemap.xml robots.txt .nojekyll _site/
           for f in readme.md tv.md mobile.md; do [ -f "$f" ] && cp "$f" _site/; done
-      - name: Install yt-dlp (Shorts orientation detection)
-        run: |
-          sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
-          sudo chmod a+rx /usr/local/bin/yt-dlp
-          yt-dlp --version
       - name: Generate live TV schedule
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
