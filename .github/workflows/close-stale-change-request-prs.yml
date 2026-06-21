@@ -26,8 +26,7 @@ jobs:
           script: |
             const owner = context.repo.owner;
             const repo = context.repo.repo;
-            const rawStaleDays = process.env.INPUT_STALE_DAYS ?? null;
-            const configuredStaleDays = rawStaleDays ? Number.parseInt(rawStaleDays, 10) : Number.NaN;
+            const configuredStaleDays = Number.parseInt(process.env.INPUT_STALE_DAYS, 10);
             const STALE_DAYS = Number.isFinite(configuredStaleDays) && configuredStaleDays > 0 ? configuredStaleDays : 90;
             const cutoffMs = STALE_DAYS * 24 * 60 * 60 * 1000;
             const now = Date.now();
