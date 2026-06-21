@@ -18,7 +18,7 @@
 - [ ] The description is concise and informative
 - [ ] I have added the item to the appropriate category
 - [ ] I am the owner/creator of the item
-- [ ] I understand this PR may be automatically closed if there is no follow-up after a requested change
+- [ ] I understand this PR may be automatically closed after 90 days if there is no follow-up after a requested change
 
 ## Additional Notes
 <!-- Any additional information that might be helpful for reviewers -->
