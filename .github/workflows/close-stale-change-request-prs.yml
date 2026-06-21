@@ -107,11 +107,6 @@ jobs:
               }
               const latestCommitAt = commitTimestamps[0];
 
-              if (!Number.isFinite(latestCommitAt)) {
-                core.warning(`Unable to determine latest commit date for PR #${pr.number}; skipping.`);
-                continue;
-              }
-
               if (latestCommitAt > latestChangeRequestAt) {
                 core.info(`PR #${pr.number} has commits after requested changes; skipping.`);
                 continue;
