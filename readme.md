@@ -2,7 +2,7 @@
 
 > A curated list of Japanese language learning resources.
 
-📺 **[Japanese TV Channel Guide](tv.md)** — watch Japanese TV networks live or their latest uploads for an authentic **immersion learning** experience. **[Watch online »](https://yudataguy.github.io/Awesome-Japanese/tv/)**
+📺 **[Japanese TV Channel Guide](https://japantv.app)** — watch Japanese TV networks live or their latest uploads for an authentic **immersion learning** experience. **[Watch online »](https://japantv.app)**
 
 ## Contents
 
@@ -25,7 +25,7 @@
   - [Speaking](#speaking)
   - [Community](#community)
   - [Video](#video)
-  - [Japanese TV](tv.md)
+  - [Japanese TV](https://japantv.app)
   - [Dictionary](#dictionary)
   - [Software](#software)
   - [Contribute](#contribute)
@@ -282,7 +282,7 @@ Similarly to Tobira, Minna no Nihongo is intended for intermediate-level student
   - [mirumoji](https://github.com/svdC1/mirumoji) - Open-source and self-hosted video player with Japanese subtitle tokenization and generation, built-in JMDict, Anki deck creation and other features. 👴
 - Subtitles
   - [kitsunekko](https://kitsunekko.net/dirlist.php?dir=subtitles%2Fjapanese%2F) - Repository of Japanese subtitles for many series
-- See also: [**Japanese TV Channels**](tv.md) - browse Japanese TV networks on YouTube (live & latest) with an interactive player.
+- See also: [**Japanese TV Channels**](https://japantv.app) - browse Japanese TV networks on YouTube (live & latest) with an interactive player.
 
 ## Dictionary
 

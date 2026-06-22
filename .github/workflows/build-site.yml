@@ -1,17 +1,16 @@
 name: Deploy site
 
 # Builds the themed homepage from master's readme.md using the theme + build
-# tooling and the /tv/ app that live on the `homepage` branch, then deploys the
-# whole site (homepage + /tv/) to GitHub Pages via the official artifact flow.
-# master stays clean (learning material only); all website code lives on `homepage`.
+# tooling that lives on the `homepage` branch, then deploys it to GitHub Pages
+# via the official artifact flow. master stays clean (learning material only);
+# all website code lives on `homepage`. The TV app now lives in its own repo
+# (japantvapp -> https://japantv.app).
 # Requires: repo Settings -> Pages -> Source = "GitHub Actions".
 
 on:
   push:
     branches: [master]
   workflow_dispatch:
-  schedule:
-    - cron: "7 * * * *"   # hourly, at :07 — regenerates the live TV schedule
 
 permissions:
   contents: read
@@ -31,14 +30,14 @@ jobs:
     steps:
       - name: Check out master (content)
         uses: actions/checkout@v4
-      - name: Check out homepage branch (theme + /tv/ app)
+      - name: Check out homepage branch (theme + build tooling)
         uses: actions/checkout@v4
         with:
           ref: homepage
           path: .homepage
       - name: Stage website tooling from the homepage branch
         run: |
-          cp -r .homepage/site .homepage/tv .homepage/package.json .homepage/package-lock.json .homepage/robots.txt .homepage/.nojekyll .
+          cp -r .homepage/site .homepage/package.json .homepage/package-lock.json .homepage/robots.txt .homepage/.nojekyll .
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
@@ -47,12 +46,8 @@ jobs:
       - name: Assemble site directory
         run: |
           mkdir -p _site
-          cp -r index.html assets tv sitemap.xml robots.txt .nojekyll _site/
-          for f in readme.md tv.md mobile.md; do [ -f "$f" ] && cp "$f" _site/; done
-      - name: Generate live TV schedule
-        env:
-          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-        run: node .homepage/scripts/build-schedule.mjs --out _site/tv/schedule.json
+          cp -r index.html assets sitemap.xml robots.txt .nojekyll _site/
+          for f in readme.md mobile.md; do [ -f "$f" ] && cp "$f" _site/; done
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
