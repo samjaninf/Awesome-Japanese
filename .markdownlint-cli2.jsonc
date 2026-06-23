@@ -1,0 +1,8 @@
+{
+  // markdownlint-cli2 options. Rule configuration itself lives in
+  // .markdownlint.jsonc (merged automatically). This file only registers the
+  // custom rule that enforces the item-description character limit.
+  "customRules": ["./.markdownlint/description-length.cjs"],
+  // Mirror .gitignore so local runs match CI (CI only checks out tracked files).
+  "ignores": ["node_modules", ".superpowers", "docs/superpowers", ".remember"]
+}

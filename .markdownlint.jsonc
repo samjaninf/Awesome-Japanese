@@ -9,5 +9,9 @@
   "MD007": { "indent": 2 }, // unordered list indentation
   "MD012": { "maximum": 1 }, // no more than one consecutive blank line
   "MD029": false, // ordered list numbering style (1/2/3 vs 1/1/1) — author's choice
-  "MD059": false // link-text wording ("here") — not a format concern
+  "MD059": false, // link-text wording ("here") — not a format concern
+  // Custom rule (.markdownlint/description-length.cjs): cap list-item
+  // descriptions at 100 visible chars (emoji + link URLs excluded). PressReader
+  // is exempt — its library-access details legitimately need the extra length.
+  "description-length": { "maximum": 100, "exemptUrls": ["pressreader.com"] }
 }
