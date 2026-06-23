@@ -48,7 +48,7 @@ Add each item as a single list line in the form:
 ## Guidelines
 
 - Ensure your contribution is in line with the project's theme and quality standards.
-- Keep the **description to one concise sentence, under 100 characters** — count only the visible description text (the name, link URLs, and any emoji don't count toward the limit).
+- Keep the **description to one concise sentence, under 100 characters** — count only the visible description text (the name, link URLs, and any emoji don't count toward the limit). This is checked automatically when you open a pull request, so an over-length description will fail the Markdown lint check.
 - Provide a clear and concise description for each contribution.
 - Check your spelling and grammar.
 - Please disclose any affiliation if you own or are connected to the resource, so we can note it for transparency (see *Nominating Your Own App or Resource* above).
