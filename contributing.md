@@ -12,6 +12,10 @@ Thank you for your interest in contributing to the Awesome Japanese List! We're 
 2. **Create a new issue**: Use the issue template to suggest your resource. Please include the name, link, and a brief description of why it's a valuable addition.
 3. **Pull request**: Once your suggestion has been acknowledged, you can submit a pull request. Please see the section below on how to do this properly.
 
+### Nominating Your Own App or Resource
+
+Self-nominations are welcome — if you built an app, site, or resource that fits the list, you're encouraged to submit it. We only ask that you're up front about it: in your pull request, tick **"I'm affiliated with this item"** under *Your Role* so we can note the affiliation for transparency. Submissions are judged on the same quality bar as any other, regardless of who submits them.
+
 ### Improving Existing Resources
 
 - If you notice a resource that could be improved or updated, please open an issue detailing your proposed changes.
@@ -29,12 +33,26 @@ Thank you for your interest in contributing to the Awesome Japanese List! We're 
 5. Push the branch to your fork (`git push origin new-resource`).
 6. Open a pull request from your fork to the original repository.
 
+## Entry Format
+
+Add each item as a single list line in the form:
+
+```markdown
+- [Name](https://example.com) - Short description ending with a period.
+```
+
+- Use the linked **Name** for the resource, followed by ` - ` and a description.
+- Capitalize the description and end it with a period.
+- Prefer `https://` links, and confirm the link works before submitting.
+
 ## Guidelines
 
 - Ensure your contribution is in line with the project's theme and quality standards.
+- Keep the **description to one concise sentence, under 100 characters** — count only the visible description text (the name, link URLs, and any emoji don't count toward the limit).
 - Provide a clear and concise description for each contribution.
 - Check your spelling and grammar.
-- Please add a disclaimer if you are the resource owner for transparency.
+- Please disclose any affiliation if you own or are connected to the resource, so we can note it for transparency (see *Nominating Your Own App or Resource* above).
+- Don't add affiliate or referral links to resources you're submitting.
 
 ## Questions?
 

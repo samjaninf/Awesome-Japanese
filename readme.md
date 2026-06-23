@@ -58,7 +58,7 @@
 - [DJT guide](https://djtguide.neocities.org/guide.html) - A well-written guide.
 - [Japanese Walkthrough](http://japaneselevelup.com/japanese-quest-walkthrough/) - A visual learning guide.
 - [Grammar Guide to Japanese](https://www.guidetojapanese.org/learn/grammar) - By Tae Kim (Note: Tae Kim also has a "Complete Guide to Japanese", which is a work in progress).
-- [The Moe Way](https://learnjapanese.moe/guide/) - A Japanese guide outlining the fundamentals as well as guides on setting up various language acquisition software tools such as visual novel text hooks.
+- [The Moe Way](https://learnjapanese.moe/guide/) - Fundamentals guide plus setup walkthroughs for immersion tools like visual novel text hooks.
 
 2. A summary of the guides is basically this: first, learn hiragana and katakana using the links in [Hiragana/Katakana](#hiragana-and-katakana) section further down this page. The Tofugu links are a good starting place.
 
@@ -96,7 +96,7 @@ The primary goals of this textbook are to solidify the grammar, vocabulary and k
 - [Official](http://tobiraweb.9640.jp/) - Unlock multimedia content and Anki deck with special code in the textbook.
 - Amazon:moneybag:
   - [Tobira Textbook](https://www.amazon.com/dp/4874244475)
-  - [Tobira: Power Up Your Kanji](https://www.amazon.com/dp/4874244874) - With it, students can study a total of 800 kanji - the 297 kanji generally introduced in beginning-level textbooks and an additional 503 kanji introduced in Tobira.
+  - [Tobira: Power Up Your Kanji](https://www.amazon.com/dp/4874244874) - Covers 800 kanji total: 297 from beginner textbooks plus 503 introduced in Tobira.
   - [Tobira: Grammar Power](https://www.amazon.com/dp/4874245706) - Japanese grammar skill build up book.
 
 ### Minna no Nihongo :man:
@@ -116,9 +116,9 @@ Similarly to Tobira, Minna no Nihongo is intended for intermediate-level student
 - [Easy Japanese](https://www.nhk.or.jp/lesson/english/index.html) - Made by NHK in multiple languages :baby:
 
 - [Erin's Challenge](https://www.erin.ne.jp/en/) - Video based Japanese lessons :man:
-- [LingoDeer](https://www.lingodeer.com/) - Japanese course on a new learning app similar to Duolingo, but made with a focus on East Asian languages. :iphone:
+- [LingoDeer](https://www.lingodeer.com/) - Duolingo-style app whose courses focus on East Asian languages. :iphone:
 - [NativShark](https://nativshark.com/) - All in one Japanese learning platform, combining vocab, grammar, kanji and speaking practice. :moneybag:
-- [NHK 高校講座 / NHK High School Course](https://www.nhk.or.jp/kokokoza/) - Video or audio of high school course made by NHK. Easy to study the basic glossaries of different fields. :man:
+- [NHK 高校講座 / NHK High School Course](https://www.nhk.or.jp/kokokoza/) - NHK high-school video/audio lessons; good for basic vocabulary across many fields. :man:
 - [Drops: Language learning app](https://languagedrops.com/) - Duolingo-like app which offers 5 minutes/day free flashcards-based app separated by categories. :iphone:
 
 ## Hiragana and Katakana
@@ -159,8 +159,8 @@ Similarly to Tobira, Minna no Nihongo is intended for intermediate-level student
 - [Kakijun](https://kakijun.jp/) - Help you find the stroke order of a kanji. :jp:
 - [Kanji Explorer](https://kanjiexplorer.com) - Navigate kanji using radicals
 - [The Kanji Map](https://thekanjimap.com) - Explore kanji decomposition as an interactive graph
-- [KanjiDraw](https://kanjidraw.com) - Kanji drawing and learning practice app with stroke-order puzzles, gamified drawing phases, multilingual meanings, and a draw-to-search dictionary. :baby:
-- [WaniAnki](https://wanianki.com) - A WaniKani companion app for reviewing kanji, vocabulary, and radicals on your own terms — advanced filters, custom decks and study/quiz modes. :iphone: :computer:
+- [KanjiDraw](https://kanjidraw.com) - Kanji practice app with stroke-order puzzles, gamified drawing, and a draw-to-search dictionary. :baby:
+- [WaniAnki](https://wanianki.com) - WaniKani companion for reviewing kanji, vocab, and radicals; custom decks, filters, and quizzes. :iphone: :computer:
 
 ## Vocabulary
 
@@ -173,17 +173,17 @@ Similarly to Tobira, Minna no Nihongo is intended for intermediate-level student
 - [Memrise](https://www.memrise.com/) - Popular online/app flashcard platform. :iphone:
 - [jpdb](https://jpdb.io/) - jpdb is a powerful Japanese dictionary and all-in-one learning system for kanji and vocabulary.
 - [Japanese Number Converter](https://japanesenumberconverter.com) - Japanese number converter (Kanji - Hiragana - Romaji)
-- [SakeSaySo](https://sakesayso.com/) - A Japanese-English dictionary app featuring SRS flashcards, daily news translations for sentence-based learning, vocabulary inspection, and example sentences. Supports offline use. :iphone:
-- [Japanese Drop](https://japanesedrop.com/learn) - Free reference guides covering greetings, phrases, numbers, honorifics, particles, and more, with word breakdowns, cultural context, and audio. Also offers a free daily Japanese lesson newsletter. :baby:
+- [SakeSaySo](https://sakesayso.com/) - Japanese-English dictionary app with SRS flashcards, daily news translations, and offline support. :iphone:
+- [Japanese Drop](https://japanesedrop.com/learn) - Free grammar and vocab reference guides with audio, plus a daily lesson newsletter. :baby:
 - [hifumi](https://vitto4.github.io/hifumi/) - A flashcards companion app tailored for Minna no Nihongo Shokyū I & II textbooks ([sources](https://github.com/vitto4/hifumi)). :iphone: :computer:
-- [Pokelingo](https://pokelingo.io/en/riddle/?lang=ja) - Daily reading puzzle: read a Pokédex entry in Japanese and guess the Pokémon in five tries. All 1,025 Pokémon names with katakana practice in context. :iphone: :baby:
-- [KaChiKa JA](https://kachika.app/) - AI photo-to-vocabulary app for Japanese learners. Snap a photo of anything around you to extract Japanese words with example sentences, scheduled for review with FSRS. All images stored locally. :iphone: :moneybag:
+- [Pokelingo](https://pokelingo.io/en/riddle/?lang=ja) - Daily puzzle: read a Pokédex entry in Japanese and guess the Pokémon; all 1,025 names in katakana. :iphone: :baby:
+- [KaChiKa JA](https://kachika.app/) - AI photo-to-vocabulary app with example sentences and FSRS review; images stored on-device. :iphone: :moneybag:
 
 ## Grammar
 
 - [Japanese Grammar Guide](https://www.guidetojapanese.org/learn/grammar) - By Tae Kim. A complete guide to Japanese grammar from knowing nothing to advanced topics.
   - [Supplement Grammar List](https://aryailia.blogspot.my/2017/05/supplements-to-tae-kims-guide-to.html) by Araia to the Japanese Grammar Guide. Targeted towards intermediate and advanced learners.
-- [Imabi](https://imabi.org/) - A grammar website like Tae Kim, but made by a linguist. Has many great, in-depth explanations, but some may find them almost too in-depth.
+- [Imabi](https://imabi.org/) - A grammar site like Tae Kim but written by a linguist; deep, in-depth explanations.
 - [Visualize Japanese Grammar](https://www2.gwu.edu/~eall/vjg/vjghomepage/vjghome.htm) - Links to 66 animations of various grammatical structures in Japanese and 12 downloadable appendices.
 - [JGram](http://www.jgram.org/) - The Japanese Grammar Database.
 - [Maggie Sensei](http://maggiesensei.com/) - Conversational Grammar.
@@ -200,23 +200,23 @@ Similarly to Tobira, Minna no Nihongo is intended for intermediate-level student
 - [NHK Easy News](https://www3.nhk.or.jp/news/easy/) - News for elementary, middle school, and foreigners with audio and video. :baby:
 - [読み物いっぱい](http://www17408ui.sakura.ne.jp/tatsum/project/Yomimono/Yomimono-ippai/index.html) - Reading materials for elementary learners. :baby:
 - [Tadoku](https://tadoku.org/japanese/en/free-books-en/) - Illustrated books for elementary learners. Some books require purchase. :baby: :moneybag:
-- [青空文庫](https://www.aozora.gr.jp) - A Japanese digital library encompasses several thousands of works of Japanese-language fiction and non-fiction. :older_man:
+- [青空文庫](https://www.aozora.gr.jp) - Japanese digital library with thousands of public-domain fiction and non-fiction works. :older_man:
 - [Japanese Folktales](http://www.e-hon.jp/ehon_jp/index1.htm) - Japanese folktales with drawings and audio. :jp:
-- [Hukumusume Fairy Tale Collection](https://hukumusume.com/douwa/) - A website where you can read and hear traditional folk tales, legends and fairy tales - from Japan and all around the world - read aloud for you in Japanese. :jp:
+- [Hukumusume Fairy Tale Collection](https://hukumusume.com/douwa/) - Traditional folk tales and fairy tales from Japan and beyond, read aloud in Japanese. :jp:
 - [Kyoko Shinbun](https://kyoko-np.net/index.html) - Fake Japanese News (similar to The Onion), podcast available. :iphone: :jp: :older_man:
 - [用例.jp](http://yourei.jp/) - Search engine for Japanese sample sentences. :jp:
 - [Japanese in Anime & Manga](http://anime-manga.jp/) - Learn Japanese from anime and manga.
 - [Satori Reader](https://www.satorireader.com/) - Japanese reading and listening practice, first two chapters of each article is free. :moneybag:
-- [Keio University Reading Materials Bank](http://language.tiu.ac.jp/materials/jpn/index.html) - The site is mostly in Japanese, but follow the 1-stars for the easiest reading materials. It's great because there is an English glossary integrated into the articles.
+- [Keio University Reading Materials Bank](http://language.tiu.ac.jp/materials/jpn/index.html) - Graded reading materials; 1-star items are easiest, with an English glossary built into articles.
 - [Japanese IO](https://www.japanese.io) - Learn Japanese through fun and easy reading practice. :older_man:
-- [PressReader](https://www.pressreader.com/) - This website/app offers [毎日新聞 (Mainichi Shinbun)](https://mainichi.jp/) digital daily newspaper and other Japanese language publications for free with many American libraries, please check your local library to see whether it is available. See [details](https://care.pressreader.com/hc/en-us/articles/211272703-Library-Card-Sign-In). Otherwise paid plan available. :older_man: :moneybag:
-- [ImaWakatta](https://imawakatta.com/) - You can start reading real Japanese today, regardless of your level. ImaWakatta has stories with audio that include native speakers and professional voice overs. Every story has dynamic highlighting so you can follow the audio line by line. Includes 4 free stories. :baby: :moneybag:
-- [LearnNatively](https://learnnatively.com) - The Natively community grades each book, movie or TV show to an approximate language proficiency level. This helps you find content that's appropriate for you.
-- [Manabi Reader](https://reader.manabi.io) - Web, RSS, and EPUB ebook reader for looking up words, tracking vocabulary and kanji learning progress, and adding flashcards into Anki or Manabi Flashcards. Includes free library of curated native reading material. :iphone: :computer:
+- [PressReader](https://www.pressreader.com/) - Read [毎日新聞 (Mainichi Shinbun)](https://mainichi.jp/) and other Japanese publications free through many US libraries — check yours, or [sign in with a library card](https://care.pressreader.com/hc/en-us/articles/211272703-Library-Card-Sign-In). Paid plan otherwise. :older_man: :moneybag:
+- [ImaWakatta](https://imawakatta.com/) - Stories with professional native audio and line-by-line highlighting; 4 free stories. :baby: :moneybag:
+- [LearnNatively](https://learnnatively.com) - Community grades books, movies, and shows by proficiency level so you find content at your level.
+- [Manabi Reader](https://reader.manabi.io) - Web/RSS/EPUB reader with word lookup, vocab and kanji tracking, Anki export, and curated reading. :iphone: :computer:
 
 ## Listening
 
-- [SuperNative](https://supernative.tv/) - Trains you to hear, read, and speak Japanese using over 10,000 bite-sized clips from TV and movies. :warning: Only Chrome browser supports voice recognition practice.
+- [SuperNative](https://supernative.tv/) - Hear, read, and speak Japanese with 10,000+ short TV/movie clips. :warning: Voice practice is Chrome-only.
 - [Delvin](https://delvinlanguage.com) - Practice Japanese listening and reading with authentic Japanese video.
 - [mykikitori](https://www.mykikitori.com/) - Practice your Japanese listening skills.
 - [Tsunahiro](https://tsunagarujp.bunka.go.jp) - Website for Foreign Nationals as Residents to Learn Japanese Language
@@ -226,12 +226,12 @@ Similarly to Tobira, Minna no Nihongo is intended for intermediate-level student
   - [JapanesePod101](https://www.japanesepod101.com/) - Japanese language learning podcast with multiple levels and web platform.
   - [News in Slow Japanese](http://newsinslowjapanese.com/) - Listen to Japanese News in slow speed. :moneybag:
   - [NHK News Podcast](https://www.nhk.or.jp/podcasts/) - Three podcasts available: Japanese news :older_man:, English news, and Easy Japanese.
-  - [Bilingual News](http://bilingualnews.libsyn.com/) - Bilingual English and Japanese news podcast. Casual and unedited colloquial language learning experience through a weekly review of relevant news topics. :older_man:
+  - [Bilingual News](http://bilingualnews.libsyn.com/) - Weekly bilingual English/Japanese news podcast with casual, unedited colloquial conversation. :older_man:
   - [Nihongo con Teppei](https://nihongoconteppei.com/) - Japanese podcast for beginners
 
 ## Speaking
 
-- [Online Japanese Accent Dictionary](http://www.gavo.t.u-tokyo.ac.jp/ojad/) - Learn the correct accent to properly pronounce Japanese words. Lists of words are categorized by textbook.
+- [Online Japanese Accent Dictionary](http://www.gavo.t.u-tokyo.ac.jp/ojad/) - Learn correct pitch accent to pronounce Japanese words; word lists organized by textbook.
 
 ## Community
 
@@ -241,7 +241,7 @@ Similarly to Tobira, Minna no Nihongo is intended for intermediate-level student
 - [Discord](https://discord.com/) - Popular chatroom platform. :iphone: :computer:
   - [English-Japanese Language Exchange](https://discord.gg/NJJCYVD) - Highly active English/Japanese discord chat server.
   - [日本語と英語](https://discord.gg/0eIsYvFQul270V1L) - Another popular English/Japanese discord chat server.
-  - [Reddit Masterlist](https://www.reddit.com/r/languagelearning/comments/5m5426/discord_language_learning_servers_masterlist/) - A list on Reddit of all the language Discord servers. Scroll down to the East Asian Languages section for Japanese servers.
+  - [Reddit Masterlist](https://www.reddit.com/r/languagelearning/comments/5m5426/discord_language_learning_servers_masterlist/) - Reddit masterlist of language-learning Discord servers; see the East Asian Languages section.
   - [TheMoeWay](https://discord.gg/nhqjydaR8j) - Highly active discord chat server for an immersion Japanese learner with immersion logs
 - [HelloTalk](https://www.hellotalk.com/) - Popular language exchange app. :iphone:
 
@@ -279,7 +279,7 @@ Similarly to Tobira, Minna no Nihongo is intended for intermediate-level student
   - [animebook](https://github.com/animebook/animebook.github.io) - In-browser video player for learning Japanese with subtitles
   - [asbplayer](https://killergerbah.github.io/asbplayer/) - Browser-based media player and Chrome extension for subtitle sentence mining
   - [miteiru](https://github.com/hockyy/miteiru) - Miteiru is an open source Electron video player to learn Japanese and other languages 👴
-  - [mirumoji](https://github.com/svdC1/mirumoji) - Open-source and self-hosted video player with Japanese subtitle tokenization and generation, built-in JMDict, Anki deck creation and other features. 👴
+  - [mirumoji](https://github.com/svdC1/mirumoji) - Self-hosted, open-source video player with Japanese subtitle tokenization, JMDict, and Anki export. 👴
 - Subtitles
   - [kitsunekko](https://kitsunekko.net/dirlist.php?dir=subtitles%2Fjapanese%2F) - Repository of Japanese subtitles for many series
 - See also: [**Japanese TV Channels**](https://japantv.app) - browse Japanese TV networks on YouTube (live & latest) with an interactive player.
@@ -290,7 +290,7 @@ Similarly to Tobira, Minna no Nihongo is intended for intermediate-level student
 
   - [Jisho](https://jisho.org/) - Gold standard online Japanese dictionary platform.
   - [Jotoba](https://jotoba.de/) - Great alternative to jisho.org with improved radical search and more.
-  - [Tangorin Japanese Dictionary](https://tangorin.com/) - Tangorin is an online Japanese-English dictionary with example sentences and many features to help you learn the Japanese language.
+  - [Tangorin Japanese Dictionary](https://tangorin.com/) - Online Japanese-English dictionary with example sentences and many learning features.
   - [Weblio](https://www.weblio.jp/) - Comprehensive Japanese dictionary portal. :jp:
   - [Google Translate](https://translate.google.com/) - Supports voice and image translation, mobile app supports offline translation. :iphone:
   - [語源由来辞典 / Gogen Yurai jiten](https://gogen-yurai.jp/) - Etymology of Japanese. :man:
@@ -313,16 +313,16 @@ Similarly to Tobira, Minna no Nihongo is intended for intermediate-level student
   - [How to Install Japanese Keyboard on Everything](https://www.tofugu.com/japanese/how-to-install-japanese-keyboard/) - Guide by Tofugu.
 - Browser Extension:satellite:
   - Firefox
-    - [Rikaichamp](https://addons.mozilla.org/en-US/firefox/addon/rikaichamp/) - Japanese to English/German/French/Russian dictionary. Just hover the mouse on top of a word, and a popup appears. This add-on is more compatible with the latest Firefox version and comes with dictionary files.
+    - [Rikaichamp](https://addons.mozilla.org/en-US/firefox/addon/rikaichamp/) - Japanese to English/German/French/Russian popup dictionary; hover a word for a definition.
   - Chrome
-    - [Yomitan](https://chromewebstore.google.com/detail/yomitan/likgccmbimhjbgkjambclfkhldnlhbnn) - Yomitan turns your browser into a tool for building Japanese language literacy by helping you to decipher texts which would be otherwise too difficult to tackle.
+    - [Yomitan](https://chromewebstore.google.com/detail/yomitan/likgccmbimhjbgkjambclfkhldnlhbnn) - Browser popup dictionary that helps you decipher difficult Japanese text.
     - [rikaigu](https://chrome.google.com/webstore/detail/rikaigu/gmgccdlimakdipjjogccblkaoipdklcb) - Rikaikun enhanced. Translate Japanese by hovering over words.
     - [IPA furigana](https://chrome.google.com/webstore/detail/ipa-furigana/jnnbgnfnncobhklficfkdnclohaklifi) - Looks up the readings for kanji words and inserts them as Furigana.
-    - [ReadNihon](https://chrome.google.com/webstore/detail/readnihon/gpbdeemekjaigcjldahhmckkfbkmebfd) - ReadNihon generates website Furigana by JLPT level. It also allows you to save known words that are ignored from Furigana conversion.
+    - [ReadNihon](https://chrome.google.com/webstore/detail/readnihon/gpbdeemekjaigcjldahhmckkfbkmebfd) - Adds furigana to web pages by JLPT level; save known words to skip them.
     - [jp343 Tracker](https://github.com/mh-343/jp343-tracker) - Tracks Japanese immersion time on YouTube, Netflix, Crunchyroll, Spotify and more.
   - Safari
     - [Safarikai](https://ashchan.github.io/safarikai/) - Rikaichan's Safari extension version.
-    - [Toucan - Language Learning](https://jointoucan.com/) - When you visit a website, Toucan automatically translates certain words and phrases on the page into the language you're trying to learn. :iphone:
+    - [Toucan - Language Learning](https://jointoucan.com/) - Auto-translates select words and phrases on web pages into your target language. :iphone:
 
 ## Contribute
 
