@@ -81,9 +81,9 @@ Everyone's favorite Japanese textbook. Recommended for beginners.
 
 - [Official](http://genki.japantimes.co.jp/index_en)
 - Amazon:moneybag:
-  - [Genki 1 Textbook](http://amzn.to/2sWHdZH) | [Genki 1 Workbook](http://amzn.to/2sWRsgR)
-  - [Genki 2 Textbook](http://amzn.to/2uqnJBh) | [Genki 2 Workbook](http://amzn.to/2sX7RBQ)
-  - [Genki Answer Key](http://amzn.to/2sX4ZF8)
+  - [Genki 1 Textbook](https://www.amazon.com/dp/4789014401) | [Genki 1 Workbook](https://www.amazon.com/dp/478901441X)
+  - [Genki 2 Textbook](https://www.amazon.com/dp/4789014436) | [Genki 2 Workbook](https://www.amazon.com/dp/4789014444)
+  - [Genki Answer Key](https://www.amazon.com/dp/4789014479)
 - Anki Deck:card_index:
   - [Genki 1 & 2](https://ankiweb.net/shared/info/1132238466) - All the vocab from Genki 1 & 2 and more. :warning: Still updating.
 - [Unofficial](https://sethclydesdale.github.io/genki-study-resources/) - Study tool.
@@ -95,9 +95,9 @@ The primary goals of this textbook are to solidify the grammar, vocabulary and k
 
 - [Official](http://tobiraweb.9640.jp/) - Unlock multimedia content and Anki deck with special code in the textbook.
 - Amazon:moneybag:
-  - [Tobira Textbook](http://amzn.to/2sX0KcF)
-  - [Tobira: Power Up Your Kanji](http://amzn.to/2sX31nV) - With it, students can study a total of 800 kanji - the 297 kanji generally introduced in beginning-level textbooks and an additional 503 kanji introduced in Tobira.
-  - [Tobira: Grammar Power](http://amzn.to/2ugA22i) - Japanese grammar skill build up book.
+  - [Tobira Textbook](https://www.amazon.com/dp/4874244475)
+  - [Tobira: Power Up Your Kanji](https://www.amazon.com/dp/4874244874) - With it, students can study a total of 800 kanji - the 297 kanji generally introduced in beginning-level textbooks and an additional 503 kanji introduced in Tobira.
+  - [Tobira: Grammar Power](https://www.amazon.com/dp/4874245706) - Japanese grammar skill build up book.
 
 ### Minna no Nihongo :man:
 
@@ -188,9 +188,9 @@ Similarly to Tobira, Minna no Nihongo is intended for intermediate-level student
 - [JGram](http://www.jgram.org/) - The Japanese Grammar Database.
 - [Maggie Sensei](http://maggiesensei.com/) - Conversational Grammar.
 - :book:Amazon:moneybag:
-  - [A Dictionary of Basic Japanese Grammar](http://a.co/fMGHlG2) - Popular Japanese grammar dictionary series. :baby:
-  - [A Dictionary of Intermediate Japanese Grammar](http://amzn.to/2txGg9H) - :man:
-  - [A Dictionary of Advanced Japanese Grammar](http://amzn.to/2u1pLVg) - :older_man:
+  - [A Dictionary of Basic Japanese Grammar](https://www.amazon.com/dp/4789004546) - Popular Japanese grammar dictionary series. :baby:
+  - [A Dictionary of Intermediate Japanese Grammar](https://www.amazon.com/dp/4789007758) - :man:
+  - [A Dictionary of Advanced Japanese Grammar](https://www.amazon.com/dp/4789012956) - :older_man:
 - [Dictionary of Japanese Grammar](https://dojgdeck.neocities.org/) - :card_index: The DoJG deck allows you to review the contents of the Dictionary of Japanese Grammar through Anki.
 - [Bunpro](https://bunpro.jp/) - Grammar learning web app using SRS. :moneybag:
 - [Sakubi](https://sakubi.neocities.org/) - Basic grammar primer that doesn't try to drill you :baby:
