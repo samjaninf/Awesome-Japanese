@@ -18,6 +18,7 @@
 - [ ] The link is working and points to the intended content
 - [ ] The description is concise and informative, and does not use the word "free" (items without `:moneybag:` are already considered free)
 - [ ] Pricing is marked correctly: I added the `:moneybag:` emoji if the item has freemium tiers, in-app purchases, or paid plans
+- [ ] If the item starts charging money after this PR is merged (paid plans, in-app purchases, or freemium tiers), I will revise its description here to add the `:moneybag:` emoji — otherwise the entry may be removed without warning
 - [ ] Item description is under 100 characters (excluding emoji)
 - [ ] I have added the item to the appropriate category
 - [ ] I understand this PR may be automatically closed after 90 days if there is no follow-up after a requested change
@@ -27,8 +28,8 @@
 - [ ] I'm affiliated with this item
 - [ ] I'm nominating this item
 
-## AI Assistance
-<!-- Roughly how much AI was involved in finding/writing this contribution? Pick one. This is just a survey — any honest answer is welcome. -->
+## Survey: AI Assistance (Optional)
+<!-- Optional survey, only asked if you're affiliated with this item (you ticked "I'm affiliated with this item" above). Roughly how much AI was involved in finding/writing this contribution? Pick one — any honest answer is welcome. -->
 - [ ] Little to none (<10%) — I wrote it myself
 - [ ] Side by side (~10–50%) — AI assisted, I directed
 - [ ] Mostly AI (>50%) — AI did most of the work
